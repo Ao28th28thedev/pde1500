@@ -43,7 +43,7 @@
         const panel = document.createElement('div');
         panel.id = 'prodigy-dev-panel';
         panel.style = `
-            position: fixed; top: 10px; right: 10px; z-index: 9999;
+            position: fixed; z-index: 9999;
             background: rgba(0, 0, 0, 0.85); color: white; padding: 12px;
             border-radius: 8px; font-family: sans-serif; font-size: 12px;
             border: 1px solid #00dbff; box-shadow: 0 0 10px rgba(0, 219, 255, 0.3);
